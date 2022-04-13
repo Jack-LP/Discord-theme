@@ -14,7 +14,6 @@
   <summary>Table of Contents</summary>
   <ol>
     <li><a href="#about-the-project">About The Project</a></li>
-    	<li><a href="#live-site">Live site</a></li>
     <li><a href="#usage">Usage</a></li>
     <li><a href="#contact">Contact</a></li>
     <li><a href="#acknowledgments">Acknowledgments</a></li>
@@ -26,12 +25,6 @@
 ## About The Project
 
 ![site-screenshot](https://i.imgur.com/OSEx1QK.png)
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-<!-- LIVE SITE -->
-
-## [Live Site](https://jack-lp.github.io/Kite)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -59,7 +52,7 @@
 - Change this line `background: url(https://i.imgur.com/nmEQmRq.png);`
 - Comment out the line underneath (`background: transparent;`)
 - It should look like this
-<img src="https://i.imgur.com/Y0gpgtQ.png" />
+  <img src="https://i.imgur.com/Y0gpgtQ.png" />
 
 - Replace the imgur link with your own
 - Link must end in `.png`, `.jpg`, `.gif`
