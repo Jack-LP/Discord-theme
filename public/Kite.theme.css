@@ -1,11 +1,12 @@
 /**
 * @name Kite
 * @author Jack-LP
-* @description A floating tab theme with customisable background image
+* @description Floating tab based theme with customisable background image
 * @version 1.0
+* @website https://jack-lp.github.io/Kite/
+* @source https://github.com/Jack-LP/Kite
 */
-
-@import url('https://jack-lp.github.io/Discord-theme/kiteTheme.css');
+@import url('https://jack-lp.github.io/Kite/src/kiteTheme.css');
 
 :root {
   /* --- User variables --- */
