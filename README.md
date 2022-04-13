@@ -52,7 +52,7 @@
 - Change this line `background: url(https://i.imgur.com/nmEQmRq.png);`
 - Comment out the line underneath (`background: transparent;`)
 - It should look like this
-  <img src="https://i.imgur.com/Y0gpgtQ.png" />
+<img src="https://i.imgur.com/Y0gpgtQ.png" />
 
 - Replace the imgur link with your own
 - Link must end in `.png`, `.jpg`, `.gif`
