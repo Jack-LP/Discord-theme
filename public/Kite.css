@@ -1,0 +1,79 @@
+/**
+* @name Kite
+* @author Jack-LP
+* @description A floating tab theme with customisable background image
+* @version 1.0
+*/
+
+@import url('https://jack-lp.github.io/Discord-theme/kiteTheme.css');
+
+:root {
+  /* --- User variables --- */
+
+  /* Custom background image */
+  --background-tertiary-alt: url('https://i.imgur.com/R8GZE6P.jpg');
+  /* --background-tertiary-alt: #2f2f2f; */
+
+  /* Border-radius for the whole theme */
+  --border-radius: 20px;
+}
+
+:root .app-2CXKsg::before {
+  top: 80px;
+  right: 125px;
+  width: 200px;
+  height: 120px;
+
+  /* Custom image above member list */
+  /* background: url(https://i.imgur.com/nmEQmRq.png); */
+  background: transparent;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.theme-dark {
+  /* Text */
+  --text-normal: #dcddde;
+  --header-primary: #fff;
+  --interactive-normal: #b9bbbe;
+  --channels-default: #96989d;
+
+  --text-muted: #a3a6aa;
+  --interactive-muted: #4f545c;
+
+  --header-secondary: #b9bbbe;
+  --interactive-hover: #dcddde;
+  --interactive-active: #fff;
+
+  /* Background color */
+  --background-primary: #36393f;
+  --background-secondary: #2f3136;
+  --background-secondary-alt: #292b2f;
+  --background-tertiary: #202225;
+  --background-floating: #18191c;
+  --background-accent: #4f545c;
+  --channeltextarea-background: #40444b;
+  --background-modifier-hover: rgba(79, 84, 92, 0.4);
+  --background-modifier-active: rgba(79, 84, 92, 0.6);
+  --background-modifier-selected: rgba(79, 84, 92, 0.6);
+
+  /* Scrollbar */
+  --scrollbar-auto-thumb: var(--background-tertiary);
+  --scrollbar-auto-track: var(--background-secondary-alt);
+  --scrollbar-thin-thumb: var(--background-tertiary);
+  --scrollbar-thin-track: transparent;
+
+  /* Other */
+  --deprecated-quickswitcher-input-background: var(--background-primary);
+}
+.colorDefault-2K3EoJ.focused-3afm-j,
+.colorDefault-2K3EoJ:active:not(.hideInteraction-1iHO1O) {
+  background-color: var(--background-modifier-hover) !important;
+}
+
+/* Hover background */
+.colorDefault-2K3EoJ.focused-3afm-j,
+.colorDefault-2K3EoJ:active:not(.hideInteraction-1iHO1O) {
+  color: var(--interactive-normal);
+}

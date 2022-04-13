@@ -1,6 +1,5 @@
 @charset "UTF-8";
-@import url('https://nyri4.github.io/donators/donators.css');
-@import url('https://fonts.googleapis.com/css2?family=Nunito');
+@import url(https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
 @import url('https://discord-custom-covers.github.io/usrbg/dist/usrbg.css');
 @import url('https://monstrousdev.github.io/themes/addons/user-tags.css');
 :root .threadSidebar-1o3BTy {
@@ -2170,7 +2169,7 @@
 :root input,
 :root select,
 :root textarea {
-  font-family: 'Nunito' !important;
+  font-family: 'Poppins', sans-serif !important;
 }
 :root .bg-1QIAus {
   background: var(--background-tertiary-alt);
